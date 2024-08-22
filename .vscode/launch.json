@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build C program",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "index.c",
+          "-o",
+          "index"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task for compiling C program"
+      }
+    ]
+  }
+  
